@@ -1,8 +1,26 @@
 ---
-date: 2019-08-08T22:42:09Z
+date: 2019-08-08T22:42:09.000+00:00
 title: Sunflower Sutra
 author: Allen Ginsberg
 hero_image: "/content/images/adrien-olichon--aOsCcTJXWY-unsplash.jpg"
+attendance:
+  name: maps
+  age: 129
+reapeating_bla:
+- tags: []
+  wannabe: false
+  nested_group: []
+- wannabe: true
+  tags:
+  - 'yes'
+  - 'no'
+  - " almost"
+  - what is this aboeut
+  - huh
+  nested_group:
+  - bouble_nested_group:
+    - date: 2020-06-16T10:16:35Z
+    few: a few
 
 ---
 I walked on the banks of the tincan banana dock and sat down under the huge shade of a Southern Pacific locomotive to look for the sunset over the box house hills and cry.
