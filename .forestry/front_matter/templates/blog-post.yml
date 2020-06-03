@@ -57,6 +57,51 @@ fields:
       required: true
   label: Attendance
   description: Group attendance
+- name: reapeating_bla
+  type: field_group_list
+  fields:
+  - name: wannabe
+    type: boolean
+    label: wannabe?
+  - name: tags
+    type: tag_list
+    default: []
+    label: tags
+  - name: nested_group
+    type: field_group_list
+    fields:
+    - name: bouble_nested_group
+      type: field_group_list
+      fields:
+      - name: date
+        type: datetime
+        label: date
+        description: ''
+        config:
+          required: false
+          date_format: 
+          time_format: 
+          display_utc: false
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: bouble nested group
+    - name: few
+      type: text
+      config:
+        required: false
+      label: few
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: nested group
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: reapeating bla
 pages:
 - content/posts/an-essay-on-walking.md
 - content/posts/ne-te-quaesiveris-extra.md
