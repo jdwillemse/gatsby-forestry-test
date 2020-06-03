@@ -44,6 +44,17 @@ fields:
     config:
       required: true
     label: name
+  - name: age
+    type: number
+    label: age
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+      required: true
   label: Attendance
   description: Group attendance
 pages:
